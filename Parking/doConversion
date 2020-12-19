@@ -1,0 +1,1 @@
+python ../../ogr2osm/ogr2osm.py Parking.dbf -t FilterParking.py -o GreenvilleCityParking.osm -f
