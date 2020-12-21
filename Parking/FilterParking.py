@@ -9,7 +9,8 @@ FEAT_CODE          -
 
 
 Constant fields:
-
+amenity=parking
+parking=surface  (most are surface, will be changed for parking garage)
 
 '''
 
@@ -21,6 +22,8 @@ def filterTags(attrs):
         return
 
     tags = {}
-    
+
+    tags['amenity'] = 'parking'
+    tags['parking'] = 'surface'
 
     return tags
