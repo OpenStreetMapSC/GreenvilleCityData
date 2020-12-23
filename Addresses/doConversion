@@ -1,0 +1,3 @@
+python ../../ogr2osm/ogr2osm_nomerge.py Addresses.dbf --id=-10000000 --locked -t FilterGreenvilleCityAddresses.py -o GreenvilleCityAddressesRaw.osm -f
+python dropEmptyNodes.py GreenvilleCityAddressesRaw.osm GreenvilleCityAddresses.osm
+

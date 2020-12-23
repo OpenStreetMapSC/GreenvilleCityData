@@ -1,0 +1,15 @@
+393,398c393,399
+<     l.debug("Checking list")
+<     for (location, pointsatloc) in pointcoords.items():
+<         if len(pointsatloc) > 1:
+<             for point in pointsatloc[1:]:
+<                 for parent in set(point.parents):
+<                     parent.replacejwithi(pointsatloc[0], point)
+---
+>     # Ideally should merge only if identical tags
+>     #l.debug("Checking list")
+>     #for (location, pointsatloc) in pointcoords.items():
+>     #    if len(pointsatloc) > 1:
+>     #        for point in pointsatloc[1:]:
+>     #            for parent in set(point.parents):
+>     #                parent.replacejwithi(pointsatloc[0], point)
