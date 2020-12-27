@@ -1,0 +1,1 @@
+python ../../ogr2osm/ogr2osm.py BuildingFootprints.dbf --id=-20000000 -t FilterBuildings.py  --locked -o GreenvilleCityBuildings.osm -f
