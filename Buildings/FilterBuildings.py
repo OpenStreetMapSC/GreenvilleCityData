@@ -11,11 +11,11 @@ FEATCODE:Type of building = (
           23 yes Mixed Use, 
           24 school School, 
           25 yes Parking Structure, 
-          26 yes Courtyard,   *** Garage / utility shed?
+          26 yes Garages, sheds, picnic shelters
           27 yes Future LUCA,   ** Construction
           ?? yes Group Quarters,
-          28 yes Other,  ?? Other tiny structure such as kiosk
-          ?? yes Temporary,  ?? Used?
+          28 yes Other - appears to be used in schoold
+          29 yes Temporary, all are tiny at banks
           30 yes Under Construction)
 
 FAC_LABEL:Label for building purpose when applicable - Not used
